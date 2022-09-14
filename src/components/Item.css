@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-outer {
+  height: auto;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  margin-top: 20px;
+
+  height: auto;
+  width: 30vw;
+  background-color: rgb(164, 203, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+label {
+  font-size: 20px;
+  color: rgb(48, 48, 168);
+}
+
+.First-Name {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: space-around;
+  box-sizing: border-box;
+  height: 50px;
+  width: 25vw;
+  text-transform: capitalize;
+}
+input {
+  border: 3px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+}
+textarea {
+  border: 3px solid gray;
+  width: 100%;
+  margin-left: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+}
+.address {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 80%;
+}
+.submit-btn {
+  margin: 20px 50px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  cursor: pointer;font-size: large;
+  color: rgb(39, 39, 239);
+}
+.submit-btn:hover {
+  background-color: rgb(149, 228, 141);
+}
+.form-error {
+  margin-top: 7px;
+  color: red;
+}
+.dob-input {
+  padding: 17px;
+  font-size: 14px;
+}
+.register {
+  margin-top: 20px;
+}
+.data-main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(17, 17, 99);
+  border-radius: 30px;
+  background-color: rgb(141, 245, 245);
+}
+.label-flex {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+.profile-info {
+  font-size: 22px;
+  font-weight: normal;
+  margin-left: 30px;
+}
+.delete-btn {
+  margin-left: 70%;
+  width: fit-content;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  color: rgb(244, 12, 12);
+  font-size: large;
+}
+.delete-btn:hover {
+  background-color: rgb(149, 228, 141);
+  /* color: rgb(206, 210, 206); */
+}
+#name-capitalize {
+  text-transform: capitalize;
+}
+.fullname {
+  text-transform: capitalize;
+}
+.data-main-outer {
+  margin-top: 50px;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+@media only screen and (max-width: 900px) {
+  .data-main-outer {
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .data-main-outer {
+    margin-left: 30%;
+  }
+}
